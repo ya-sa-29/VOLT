@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="volt_active">#F1FEC8</color>
+    <color name="volt_inactive">#85818F</color>
+    <color name="volt_secondary">#B8B6C2</color>
+    <color name="volt_outage">#F1FEC8</color>
+    <color name="volt_power">#55515F</color>
+</resources>
