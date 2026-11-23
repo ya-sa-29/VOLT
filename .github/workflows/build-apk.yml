@@ -34,9 +34,9 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v4
 
-      - name: Install Android SDK packages
+      - name: Show available Android SDK packages
         run: |
-          sdkmanager "platforms;android-37" "build-tools;36.0.0"
+          sdkmanager --list | grep -E "platforms;android-|build-tools;" | tail -40
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
